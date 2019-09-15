@@ -1,0 +1,5 @@
+<launch>
+    <!-- Start Pluto service handler  -->
+    <node pkg="pluto_node_handler" name="pluto_launcher" type="pluto_node_handler_server.py" >
+    </node>
+</launch>
